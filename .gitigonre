@@ -1,0 +1,36 @@
+# Ignorar arquivos compilados do Python
+*.pyc
+__pycache__/
+
+# Ignorar dados sensíveis ou grandes conjuntos de dados
+data/
+datasets/
+*.csv
+*.xlsx
+*.json
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Ignorar configurações do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar ambientes virtuais
+env/
+venv/
+ENV/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignorar chaves e credenciais
+*.key
+*.pem
+*.env
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
